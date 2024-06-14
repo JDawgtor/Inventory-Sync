@@ -11,7 +11,7 @@ clear @s
 #Start replacing items
 function invsync:z_backend/item_replace_loop with storage invsync:invsync_temp
 #Stop the armor equip sound spam
-function invsync:z_backend/stop_equip_sound
+function invsync:z_backend/restore/stop_equip_sound
 
 #Give actionbar message
 title @s actionbar {"text":"Inventory updated!"}

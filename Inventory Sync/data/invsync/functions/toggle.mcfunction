@@ -1,6 +1,6 @@
 ## Add or remove the invsync tag from @s depending if adding the tag was successful
 function invsync:z_backend/grab_player_id
-function invsync:z_backend/toggle_confirm with storage invsync:invsync_temp
+function invsync:z_backend/toggle/toggle_confirm with storage invsync:invsync_temp
 
 
 # ## Display the correct chat message
